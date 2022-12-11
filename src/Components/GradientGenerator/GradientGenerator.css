@@ -1,0 +1,14 @@
+.gradient-generator {
+    width: 100%;
+    height: 100%;
+  }
+
+.gradient-generator label {
+  font-size: 3vmin;
+}
+
+.flex-colors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

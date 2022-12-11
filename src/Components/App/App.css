@@ -1,0 +1,25 @@
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0
+}
+
+
+h1 { font-size: 6vmin; margin: 0 }
+h2 { font-size: 5vmin; margin: 0 }
+h3 { font-size: 4vmin; margin: 0 }
+h4 { font-size: 3vmin; margin: 0 }
+h5 { font-size: 2vmin; margin: 0 }
+h6 { font-size: 1vmin; margin: 0 }
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, hsl(0, 0%, 26%), hsl(0, 0%, 6%));
+}
+
+
+
