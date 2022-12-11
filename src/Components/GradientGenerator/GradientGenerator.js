@@ -107,7 +107,7 @@ export class GradientGenerator extends React.Component {
                         <p>{this.setBackground()}</p>
                     </div>
                     <div className='flex element' style={{ background: this.setBackground(), color: this.setTextColor()}} onClick={this.setRandomGradient}>
-                        <h2>Random Gradient</h2>
+                        <h3>Random Gradient</h3>
                     </div>
                 </div>
             </div>

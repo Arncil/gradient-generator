@@ -31,6 +31,7 @@ html {
   input[type="range"] {
     -webkit-appearance: none;
     height: 2vmin;
+    width: 20vmin;
     border-radius: 1vmin;
     border: 0.1vmin solid #fff;
     background: linear-gradient(180deg, hsl(0, 0%, 90%), hsl(0, 0%, 40%));
