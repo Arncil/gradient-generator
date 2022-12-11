@@ -15,4 +15,6 @@
 
 .gradient-generator p {
   text-align: center;
+  font-size: 1.5vmin;
+  margin: 0 2vmin
 }

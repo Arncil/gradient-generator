@@ -55,6 +55,7 @@ html {
     hsl(90, 100%, 50%),
     hsl(45, 100%, 50%),
     hsl(0, 100%, 50%));
+    cursor: pointer;
   }
   
   input[type="range"]::-moz-range-thumb {
@@ -74,6 +75,7 @@ html {
     hsl(90, 100%, 50%),
     hsl(45, 100%, 50%),
     hsl(0, 100%, 50%));
+    cursor: pointer;
   }
   
   input[type="range"]::-ms-thumb {
@@ -93,6 +95,7 @@ html {
     hsl(90, 100%, 50%),
     hsl(45, 100%, 50%),
     hsl(0, 100%, 50%));
+    cursor: pointer;
   }
   
   /* Input Track */
