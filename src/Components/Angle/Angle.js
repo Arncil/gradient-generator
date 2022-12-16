@@ -2,7 +2,7 @@ import React from "react";
 
 export class Angle extends React.Component {
     setTextColor = () => {
-        return (this.props.lightness+this.props.lightness2)/2 > 50 ? '#000' : '#fff'
+        return this.props.lightness > 50 || this.props.lightness2 > 50 ? '#000' : '#fff'
     }
     setBackground = () => {
         return `linear-gradient(${this.props.angle}deg,

@@ -70,7 +70,7 @@ export class GradientGenerator extends React.Component {
         })
     }
     setTextColor = () => {
-        return (this.state.lightness + this.state.lightness2) / 2 > 50 ? '#000' : '#fff'
+        return this.state.lightness > 50 || this.state.lightness2 > 50 ? '#000' : '#fff'
     }
     copyOnClick = () => {
         navigator.clipboard.writeText(this.setBackground())
